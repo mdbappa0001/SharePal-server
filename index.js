@@ -42,7 +42,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/main', (req, res) => {
-    res.send('Hello from sharepal001')
+    res.send('Hello from sharepal')
 })
 
 app.listen(port, () => {

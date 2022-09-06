@@ -41,6 +41,10 @@ app.get('/', (req, res) => {
     res.send('Hello from sharepal')
 })
 
+app.get('/main', (req, res) => {
+    res.send('Hello from sharepal001')
+})
+
 app.listen(port, () => {
     console.log(`Sharepal listening on port ${port}`);
 })
